@@ -1,6 +1,6 @@
 RewriteEngine on
 RewriteCond $1 !^(index\.php|css|js|images|assets|robots.txt)
-RewriteRule ^(.*)$ /ValidacionWeb/index.php/$1 [L]
+#RewriteRule ^(.*)$ /ValidacionWeb/index.php/$1 [L]
 
 AddOutputFilterByType DEFLATE text/xml
 AddOutputFilterByType DEFLATE text/css
